@@ -1,0 +1,504 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.headder{
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid #d5cece;
+    padding: 20px 0px;
+}
+.headder:hover{
+    cursor: pointer;
+    border-bottom: 4px solid #2c5cf7;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+  
+}
+.col6{
+    width: 50%;
+    float: left;
+}
+.menu h1{
+    font-size: 27px;
+    font-weight: 700;
+    margin: 18px 0px;
+    line-height: 1.2em;
+}
+.nab{
+    display: block;
+    text-align: right;
+}
+.nab img{
+    width: 11%;
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* banner star */
+
+.naber{
+    display: flex;
+}
+.avater{
+    padding: 30px 0px;
+    width: 116%;
+}
+.avater img{
+    width: 100%;
+    height: 360px;
+}
+.naber img{
+    width: 11%;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+.naber h4{
+    font-size: 19px;
+    margin: 30px 10px;
+}
+.naber p{
+    font-size: 15px;
+    margin: 6px 0px;
+}
+.box h1{
+    font-size: 27px;
+    font-weight: 700;
+    margin: 18px 0px;
+    line-height: 1.2em;
+}
+.box p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+.box h6{
+    font-size: 15px;
+}
+.bannerbox{
+    padding: 30px 0px 0px 190px;
+}
+.btn-primary{
+    padding: 18px 68px;
+    font-size: 17px;
+    border-radius: 8px;
+    color: #6047ec;
+    font-weight: 600;
+    background-color: #a9b9f0;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    border: 4px solid rgb(3, 136, 238);
+}
+.inerbox{
+    background-color: #f3f3f3;
+    height: 1500px;
+}
+.inerbox:hover{
+    cursor: pointer;
+    border: 3px solid rgb(80, 127, 238);
+}
+.formgroup {
+    margin: 40px 0px ;
+}
+.formgroup h2{
+    font-size: 20px;
+    font-weight: 600;
+    transform: translate(37px, 20px);
+}
+.formcontrol{
+    padding: 30px 0px;
+    position: relative;
+    height: 17px;
+}
+.formcontrol:hover{
+    cursor: pointer;
+    border: 3px solid red;
+}
+.formcontrol p{
+    font-size: 15px;
+    color: #000000bc;
+    transform: translate(14px, -14px);
+}
+.bg01{
+    width: 88%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0px 0px 19px 23px;
+}
+@media (min-width:279px) and (max-width:319px){
+    .container{
+        width: 90%;
+        margin: 0px auto;
+       }
+       .row{
+        width: 100%;
+        float: left;
+       }
+       .col6{
+        width: 100%;
+        float: left;
+       }
+       .headder{
+           padding: 0px;
+       }
+       .menu{
+           display: block;
+           text-align: center;
+       }
+       .menu h1{
+           font-size: 18px;
+       }
+       .nab{
+           text-align: center;
+       }
+       .nab img{
+           width: 11%;
+           height: 37px;
+       }
+       .avater{
+           padding: 10px 0px;
+       }
+       .avater img{
+            width: 77%;
+            height: 121px;
+            padding: 0px 19px
+       }
+       .naber img {
+           width: 11%;
+           height: 37px;
+           border-radius: 50%;
+           margin: 10px 0px 0px;
+       }
+       .naber h4{
+           font-size: 14px;
+           margin: 20px 10px 0px;
+       }
+       .naber p {
+           font-size: 12px;
+           transform: translate(2px, -9px);
+       }
+       .box h1{
+           font-size: 17px;
+           margin: 7px 0px 0px;
+           text-align: center;
+       }
+       .box p{
+           font-size: 12px;
+           text-align: center;
+       }
+       .box h6{
+           font-size: 16px;
+           text-align: center;
+       }
+       .bannerbox{
+           padding: 15px 0px 0px 0px;
+       }
+       .btn-primary{
+           padding: 12px 23px;
+           font-size: 11px;
+           margin: 0px 32px;
+       }
+       .formgroup{
+          margin: 13px 0px 0px;
+       }
+       .inerbox{
+           height: 1060px;
+       }
+       .bg01{
+           margin: 0px 0px 15px 17px;
+       }
+       .formcontrol p {
+        font-size: 12px;
+        margin: 0px 4px
+       }
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .container{
+     width: 90%;
+     margin: 0px auto;
+    }
+    .row{
+     width: 100%;
+     float: left;
+    }
+    .col6{
+     width: 100%;
+     float: left;
+    }
+    .headder{
+        padding: 0px;
+    }
+    .menu{
+        display: block;
+        text-align: center;
+    }
+    .menu h1{
+        font-size: 18px;
+    }
+    .nab{
+        text-align: center;
+    }
+    .nab img{
+        width: 11%;
+        height: 37px;
+    }
+    .avater{
+        padding: 10px 0px;
+    }
+    .avater img{
+        width: 81%;
+        height: 181px;
+        padding: 0px 18px;
+    }
+    .naber img {
+        width: 11%;
+        height: 37px;
+        border-radius: 50%;
+        margin: 10px 0px 0px;
+    }
+    .naber h4{
+        font-size: 14px;
+        margin: 20px 10px 0px;
+    }
+    .naber p {
+        font-size: 12px;
+        transform: translate(2px, -9px);
+    }
+    .box h1{
+        font-size: 17px;
+        margin: 7px 0px 0px;
+        text-align: center;
+    }
+    .box p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .box h6{
+        font-size: 16px;
+        text-align: center;
+    }
+    .bannerbox{
+        padding: 15px 0px 0px 0px;
+    }
+    .btn-primary{
+        padding: 12px 23px;
+        font-size: 11px;
+        margin: 0px 54px;
+    }
+    .formgroup{
+       margin: 13px 0px 0px;
+    }
+    .inerbox{
+        height: 1060px;
+    }
+    .bg01{
+        margin: 0px 0px 15px 17px;
+    }
+    .formcontrol p {
+        font-size: 13px;
+        margin: 0px 10px;
+    }
+}
+@media (min-width:481px) and (max-width:767px){
+    .container{
+     width: 90%;
+     margin: 0px auto;
+    }
+    .row{
+     width: 100%;
+     float: left;
+    }
+    .col6{
+     width: 100%;
+     float: left;
+    }
+    .headder{
+        padding: 0px;
+    }
+    .menu{
+        display: block;
+        text-align: center;
+    }
+    .menu h1{
+        font-size: 18px;
+    }
+    .nab{
+        text-align: center;
+    }
+    .nab img{
+        width: 11%;
+        height: 43px;
+    }
+    .avater{
+        padding: 10px 0px;
+    }
+    .avater img{
+        width: 75%;
+        height: 235px;
+        margin: 10px 29px 0px;
+    }
+    .naber img {
+        width: 11%;
+        height: 49px;
+        border-radius: 50%;
+        margin: 10px 0px 0px;
+    }
+    .naber h4{
+        font-size: 15px;
+        margin: 20px 10px 0px;
+    }
+    .naber p {
+        font-size: 12px;
+        transform: translate(2px, -9px);
+    }
+    .box h1{
+        font-size: 17px;
+        margin: 7px 0px 0px;
+        text-align: center;
+    }
+    .box p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .box h6{
+        font-size: 16px;
+        text-align: center;
+    }
+    .bannerbox{
+        padding: 15px 0px 0px 0px;
+    }
+    .btn-primary{
+        padding: 12px 38px;
+        font-size: 11px;
+        margin: 0px 103px;
+    }
+    .formgroup{
+       margin: 13px 0px 0px;
+    }
+    .inerbox{
+        height: 1060px;
+    }
+    .bg01{
+        margin: 0px 0px 15px 24px;
+    }
+    .formcontrol p {
+        font-size: 13px;
+        margin: 0px 66px;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .container{
+     width: 90%;
+     margin: 0px auto;
+    }
+    .row{
+     width: 100%;
+     float: left;
+    }
+    .col6{
+     width: 100%;
+     float: left;
+    }
+    .headder{
+        padding: 0px;
+    }
+    .menu{
+        display: block;
+        text-align: center;
+    }
+    .menu h1{
+        font-size: 20px;
+    }
+    .nab{
+        text-align: center;
+    }
+    .nab img{
+        width: 9%;
+        height: 60px;
+    }
+    .avater{
+        padding: 10px 0px;
+    }
+    .avater img{
+        width: 70%;
+        height: 256px;
+        margin: 10px 65px 0px;
+    }
+    .naber img {
+        width: 9%;
+        height: 60px;
+        border-radius: 50%;
+        margin: 10px 0px 0px;
+    }
+    .naber h4{
+        font-size: 15px;
+        margin: 27px 10px 0px;
+    }
+    .naber p {
+        font-size: 12px;
+        transform: translate(2px, -9px);
+    }
+    .box h1{
+        font-size: 17px;
+        margin: 7px 0px 0px;
+        text-align: center;
+    }
+    .box p{
+        font-size: 12px;
+        text-align: center;
+        transform: translate(0px, -2px);
+    }
+    .box h6{
+        font-size: 16px;
+        text-align: center;
+    }
+    .bannerbox{
+        padding: 15px 0px 0px 0px;
+    }
+    .btn-primary{
+        padding: 12px 38px;
+        font-size: 11px;
+        margin: 0px 233px 23px;
+    }
+    .formgroup{
+       margin: 13px 0px 0px;
+    }
+    .inerbox{
+        height: 1060px;
+    }
+    .bg01{
+        margin: 0px 0px 15px 39px;
+    }
+    .formcontrol p {
+        font-size: 13px;
+        margin: 0px 184px;
+    }
+}
